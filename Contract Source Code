@@ -125,9 +125,9 @@ contract Doodle is ERC20Interface, Owned, SafeMath {
         symbol = "DOODLE";
         name = "Doodle";
         decimals = 18;
-        _totalSupply = 500000000000000;
-        balances[0xe4aeBB60926684d5a9BF0A397F0aB2990165eBb2] = _totalSupply;
-        emit Transfer(address(0), 0xe4aeBB60926684d5a9BF0A397F0aB2990165eBb2, _totalSupply);
+        _totalSupply = 10000000000000000000000000000;
+        balances[0x6142e7e26A356F10B998E484c2839cC49549eE0a] = _totalSupply;
+        emit Transfer(address(0), 0x6142e7e26A356F10B998E484c2839cC49549eE0a, _totalSupply);
     }
 
 
